@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-mist font-sans text-ink antialiased; }
+input[type="range"] { @apply h-2 w-full cursor-pointer appearance-none rounded-full bg-indigo-100 accent-indigo-600; }
